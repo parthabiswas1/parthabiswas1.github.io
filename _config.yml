@@ -2,7 +2,7 @@ title: "Partha Biswas – AI/ML Portfolio"
 description: "Agentic AI and projects showcase"
 
 ##remote_theme: pages-themes/cayman
-remote_theme: jekyll-Al-Folio
+remote_theme: alshedivat/al-folio
 plugins:
   - jekyll-remote-theme
 
