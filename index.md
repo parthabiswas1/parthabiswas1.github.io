@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+<link rel="stylesheet" href="/assets/css/style.css">
 
 <!-- Sticky Navigation Bar -->
 <nav class="top-nav">
