@@ -1,5 +1,10 @@
-title: "Partha Biswas – AI/ML Portfolio"
+title: "Partha Biswas – AI/ML Portfolio"
 description: "Agentic AI and projects showcase"
+
 remote_theme: pages-themes/cayman
 plugins:
   - jekyll-remote-theme
+
+collections:
+  projects:
+    output: true
