@@ -1,10 +1,21 @@
 title: "Partha Biswas – AI/ML Portfolio"
 description: "Agentic AI and projects showcase"
 
-remote_theme: pages-themes/cayman
+##remote_theme: pages-themes/cayman
+remote_theme: jekyll-theme-slate
 plugins:
   - jekyll-remote-theme
 
 collections:
   projects:
     output: true
+
+#Theme(config name)	      Style	                      Best For
+#jekyll-theme-minimal	    Hero + simple design	      Landing page / portfolio
+#jekyll-theme-architect	  Sidebar with two-column	    Docs/projects + navigation
+#jekyll-theme-hacker	    Console-style, monospace	  Developer resume / blog
+#jekyll-theme-midnight	  Dark theme UI	               Modern, personal branding
+#jekyll-theme-slate	      Card/grid layout	          Project-heavy landing pages
+#jekyll-theme-dinky	      Lightweight sidebar layout	Fast and minimal portfolios
+#jekyll-theme-modernist	  Typography-focused layout	  Professional content display
+#jekyll-theme-leap-day	  Magazine-style grid	        News/projects/updates display
