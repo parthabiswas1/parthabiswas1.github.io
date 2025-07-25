@@ -1,21 +1,33 @@
 ---
 ---
-{% include header.html %}
-<main class="container">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.description }}</p>
-
-  {% if page.github %}
-    <p><a href="{{ page.github }}" class="btn">View Repo →</a></p>
-  {% endif %}
-  {% if page.colab %}
-    <p><a href="{{ page.colab }}" class="btn">Open Notebook</a></p>
-  {% endif %}
-
-  <!-- This is critical for rendering Markdown content -->
-  {{ content }}
-
-  <hr>
-  <p><a href="/projects/">← Back to Projects</a></p>
-</main>
-{% include footer.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="project-name">{{ page.title }}</h1>
+      <h2 class="project-tagline">{{ page.description }}</h2>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      </nav>
+    </header>
+    <main class="main-content">
+      {{ content }}
+      {% if page.github %}
+        <p><a href="{{ page.github }}" class="btn">View Repo →</a></p>
+      {% endif %}
+      {% if page.colab %}
+        <p><a href="{{ page.colab }}" class="btn">Open Notebook</a></p>
+      {% endif %}
+    </main>
+    <footer class="site-footer">
+      <p><a href="/projects/">← Back to Projects</a></p>
+    </footer>
+  </body>
+</html>
