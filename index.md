@@ -48,9 +48,6 @@ title: Home
 }
 </style>
 
-# Partha Biswas
-*AI • ML • Agentic AI Engineer*
-
 ---
 
 <!-- About Me Section -->
@@ -66,7 +63,7 @@ title: Home
         and real-world deployment, I strive to deliver intelligent and impactful products.
       </p>
       <p>
-        <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a> |
+        <a href="https://linkedin.com/parthapratimbiswas/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/parthabiswas1" target="_blank">GitHub</a> |
         <a href="mailto:YOUR-EMAIL">Email Me</a>
       </p>
@@ -108,8 +105,6 @@ title: Home
   text-decoration: underline;
 }
 </style>
-
----
 
 <!-- Featured Project Section -->
 {% assign featured = site.projects | first %}
