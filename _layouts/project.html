@@ -1,0 +1,16 @@
+---
+---
+{% include header.html %}
+<main class="container">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
+  {% if page.github %}
+    <p><a href="{{ page.github }}" class="btn">View Repo →</a></p>
+  {% endif %}
+  {% if page.colab %}
+    <p><a href="{{ page.colab }}" class="btn">Open Notebook</a></p>
+  {% endif %}
+  <hr>
+  <p><a href="/projects/">← Back to Projects</a></p>
+</main>
+{% include footer.html %}
