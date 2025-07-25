@@ -2,7 +2,6 @@
 layout: default
 title: Home
 ---
-<link rel="stylesheet" href="/assets/css/style.css">
 
 <!-- Sticky Navigation Bar -->
 <nav class="top-nav">
@@ -16,6 +15,38 @@ title: Home
     </div>
   </div>
 </nav>
+
+<style>
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #0366d6;
+  text-decoration: none;
+}
+.nav-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95em;
+}
+.nav-links a:hover {
+  color: #0366d6;
+}
+</style>
 
 # Partha Biswas
 *AI • ML • Agentic AI Engineer*
@@ -43,6 +74,41 @@ title: Home
   </div>
 </section>
 
+<style>
+.about-me {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.about-image img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+.about-text {
+  flex: 1;
+  font-size: 1em;
+  line-height: 1.6;
+}
+.about-text a {
+  text-decoration: none;
+  color: #0366d6;
+}
+.about-text a:hover {
+  text-decoration: underline;
+}
+</style>
+
 ---
 
 <!-- Featured Project Section -->
@@ -67,6 +133,40 @@ title: Home
 </section>
 {% endif %}
 
+<style>
+.featured-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.featured-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.featured-content h2 {
+  margin: 0 0 10px;
+}
+.featured-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 6px 10px;
+  background: #0366d6;
+  color: #fff !important;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.featured-links a:hover {
+  background: #024a9a;
+}
+</style>
 
 ---
 
@@ -93,7 +193,52 @@ title: Home
 
 [View All Projects →](/projects/)
 
-
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  max-height: 160px;
+}
+.project-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 6px 10px;
+  background: #0366d6;
+  color: #fff !important;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.project-links a:hover {
+  background: #024a9a;
+}
+</style>
 
 ---
 
@@ -108,3 +253,26 @@ title: Home
   </p>
 </section>
 
+<style>
+.contact-section {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.contact-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background: #0366d6;
+  color: #fff !important;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+}
+.contact-btn:hover {
+  background: #024a9a;
+}
+</style>
