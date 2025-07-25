@@ -6,7 +6,7 @@ title: Home
 <!-- Sticky Navigation Bar -->
 <nav class="top-nav">
   <div class="nav-container">
-    <a class="nav-brand" href="{{ '/' | relative_url }}">Partha Biswas</a>
+    <a class="nav-brand" href="{{ '/' | relative_url }}">Machine Learning (ML) and Artificial Intelligence (AI) - University of California, Berkeley</a>
     <div class="nav-links">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
