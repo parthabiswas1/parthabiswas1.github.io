@@ -48,13 +48,11 @@ title: Home
 }
 </style>
 
----
-
 <!-- About Me Section -->
 <section id="about-me" class="about-me">
   <div class="about-container">
     <div class="about-image">
-      <img src="/assets/images/profile.jpg" alt="Partha Biswas">
+      <img src="/assets/images/partha.jpeg" alt="Partha Biswas">
     </div>
     <div class="about-text">
       <p>
