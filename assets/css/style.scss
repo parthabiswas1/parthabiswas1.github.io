@@ -1,0 +1,72 @@
+---
+---
+
+@import "{{ site.remote_theme | split: '/' | last }}";  // Import al-folio theme styles
+
+/* Custom CSS overrides */
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #0366d6;
+  text-decoration: none;
+}
+.nav-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95em;
+}
+.nav-links a:hover {
+  color: #0366d6;
+}
+
+/* Continue moving all CSS that was in index.md... */
+
+.about-me {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.about-image img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+.about-text {
+  flex: 1;
+  font-size: 1em;
+  line-height: 1.6;
+}
+.about-text a {
+  text-decoration: none;
+  color: #0366d6;
+}
+.about-text a:hover {
+  text-decoration: underline;
+}
+
+/* Featured project, project grid, contact section rules... */
