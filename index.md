@@ -56,7 +56,7 @@ title: Home
     </div>
     <div class="about-text">
       <p>
-        I’m passionate about technology. I manage technical programs and projects and make sure that I keep upto-date about the latest in technology. Below I would like to showcase data analysis using Pandas, Dataframe, Numpy, Dataframes, Matplotlib, Seaborn, Potly.  I will continue to add projects on Models and Agentic AI systems.  With expertise in data science, model optimization, and real-world deployment, I strive to manage and deliver intelligent and impactful products.
+        I’m passionate about technology. I manage technical programs and projects and make sure that I keep upto-date about the latest in technology. Below I would like to showcase data analysis using Pandas, Dataframe, Numpy, Matplotlib, Seaborn, Potly.  I will continue to add projects on Models and Agentic AI systems.  With expertise in data science, model optimization, Agentic AI and real-world deployment, I strive to manage and deliver intelligent and impactful products.
       </p>
       <p>
         <a href="https://linkedin.com/parthapratimbiswas/" target="_blank">LinkedIn</a> |
